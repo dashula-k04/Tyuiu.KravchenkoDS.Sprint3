@@ -15,10 +15,9 @@ namespace Tyuiu.KravchenkoDS.Sprint3.Task5.V30.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries = sumSeries + (Math.Pow(x, 3) - j) ;
+                    sumSeries = sumSeries + (Math.Pow(x, 3) - j + x) ;
                 }
-            }
-            sumSeries = sumSeries + x;
+            }     
             return Math.Round(sumSeries, 3);
         }
     }
